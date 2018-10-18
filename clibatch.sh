@@ -57,7 +57,8 @@
 # npm run ng -- g service non-functional/logger/loggerHttp -m non-functional/logger/logger.module
 # npm run ng -- g class non-functional/logger/loggerConfig
 
-
-
+# npm run ng -- g module module1 --routing 
+# npm run ng -- g component module1/mod1comp1 -m module1/module1.module 
+# npm run ng -- g component module1/mod1comp2 -m module1/module1.module 
 
 
