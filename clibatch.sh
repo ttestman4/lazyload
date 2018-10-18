@@ -60,5 +60,9 @@
 # npm run ng -- g module module1 --routing 
 # npm run ng -- g component module1/mod1comp1 -m module1/module1.module 
 # npm run ng -- g component module1/mod1comp2 -m module1/module1.module 
+# npm run ng -- g component module1/mod1host -m module1/module1.module 
 
-
+npm run ng -- g module module1 --routing 
+npm run ng -- g component module1/mod1comp1 -m module1/module1.module 
+npm run ng -- g component module1/mod1comp2 -m module1/module1.module 
+npm run ng -- g component module1/mod1host -m module1/module1.module 
