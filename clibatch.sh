@@ -62,7 +62,10 @@
 # npm run ng -- g component module1/mod1comp2 -m module1/module1.module 
 # npm run ng -- g component module1/mod1host -m module1/module1.module 
 
-npm run ng -- g module module2 --routing 
-npm run ng -- g component module2/mod2comp1 -m module2/module2.module 
-npm run ng -- g component module2/mod2comp2 -m module2/module2.module 
-npm run ng -- g component module2/mod2host -m module2/module2.module 
+# npm run ng -- g module module2 --routing 
+# npm run ng -- g component module2/mod2comp1 -m module2/module2.module 
+# npm run ng -- g component module2/mod2comp2 -m module2/module2.module 
+# npm run ng -- g component module2/mod2host -m module2/module2.module 
+
+# npm run ng -- g module shared
+yarn ng g service shared/svc1 

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from '@angular/router';
+import { Svc1Service } from '../../shared';
 
 @Component({
   selector: 'lz-mod2host',
@@ -8,10 +9,14 @@ import { ActivatedRoute, Router } from '@angular/router';
 })
 export class Mod2hostComponent {
 
+  svc1Id: number;
 
   constructor(
     private route: ActivatedRoute,
-    private router: Router) { }
+    private router: Router,
+    private svc1: Svc1Service) {
+    this.svc1Id = svc1.getInstanceId();
+  }
 
   public gotoMod1() {
     this.router.navigate(['/module1']);

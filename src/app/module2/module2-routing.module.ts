@@ -18,7 +18,8 @@ const routes: Routes = [{
   { path: '', redirectTo: 'comp1' },
   ]
 },
-  { path: '', redirectTo: 'host2' },];
+{ path: '', redirectTo: 'host2' },
+];
 
 @NgModule({
   imports: [RouterModule.forChild(routes)],

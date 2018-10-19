@@ -9,7 +9,7 @@ import { Mod1hostComponent } from './mod1host/mod1host.component';
 @NgModule({
   imports: [
     CommonModule,
-    Module1RoutingModule
+    Module1RoutingModule,
   ],
   declarations: [Mod1comp1Component, Mod1comp2Component, Mod1hostComponent]
 })
