@@ -1,8 +1,21 @@
 <!--The content below is only a placeholder and can be replaced.-->
-<div style="text-align:center">
-  <h1>
-    Welcome to {{ title }}!
-  </h1>
-</div>
+<div style="border-color: aqua;border-style: solid;">
+  <div style="text-align:center">
+    <h1>
+      Welcome to {{ title }}!
+    </h1>
+    <button (click)="gotoMod1()">Goto Module 1</button>
+    <button (click)="gotoMod2()">Goto Module 2</button>
+    <div></div>
+    <button (click)="gotoMod1Comp1()">Goto Module 1 comp 1</button>
+    <button (click)="gotoMod1Comp2()">Goto Module 1 comp 2</button>
+    <div></div>
+    <button (click)="gotoMod2Comp1()">Goto Module 2 comp 1</button>
+    <button (click)="gotoMod2Comp2()">Goto Module 2 comp 2</button>
+    <div></div>
+    <button (click)="gotoComp1()">Goto Comp 1</button>
+    <button (click)="gotoComp2()">Goto Comp 2</button>
+  </div>
 
-<router-outlet></router-outlet>
+  <router-outlet></router-outlet>
+</div>
